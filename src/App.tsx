@@ -1,10 +1,10 @@
 
-import Form from "./components/Form"
+import Weather from "./components/Weather"
 
 function App() {
   return (
     <div className="flex justify-center items-center w-full h-screen flex-col bg-cyan-200">
-      <Form />    
+      <Weather />    
     </div>
   )
 }
