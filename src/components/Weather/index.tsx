@@ -2,6 +2,8 @@ import { SetStateAction, useState } from "react";
 import Api from "../../Api";
 
 type PropsValues = {
+  current: any;
+  location: any;
   values: {
     location: {
       name: string;
